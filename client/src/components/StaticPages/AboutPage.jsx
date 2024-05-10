@@ -4,7 +4,7 @@ import abhimanyuPic from "../../Assets/main-profile.png";
 const AboutPage = () => {
   const people = [
     {
-      name: "Abhimanyu Kanujia",
+      name: "Abhimanyu Kanaujia",
       role: "Full Stack Developer",
       picture:  abhimanyuPic ,
       linkedinURL: "https://www.linkedin.com/in/abhimanyukanaujia018/",

@@ -7,7 +7,6 @@ import Fitness from "../../imageAssets/Fitness.png";
 import Arts from "../../imageAssets/Arts.png";
 import Speaking from "../../imageAssets/Public.png";
 
-
 const Explore = () => {
   const Categories = [
     {
@@ -47,7 +46,7 @@ const Explore = () => {
       {/* explore skills upper div */}
       <h2 className="text-3xl font-bold text-black">Explore Skills</h2>
       {/* paragraph div */}
-      <p className="my-4 mb-6 w-[50%] text-center">
+      <p className="sm:hidden my-4 mb-6 w-[50%] text-center">
         Discover thousands of on-demand classes in design, business, technology,
         photography, and more. Find what sparks your curiosity.
       </p>

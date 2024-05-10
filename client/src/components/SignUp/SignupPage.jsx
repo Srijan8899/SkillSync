@@ -20,7 +20,7 @@ const SignUpPage = () => {
   const { setIsLoggedIn, login } = useContext(AuthContext);
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const [accountType, setAccountType] = useState("instructor");
+  const [accountType, setAccountType] = useState("student");
   const navigation = useNavigate();
 
   function changeHandler(event) {

@@ -21,7 +21,7 @@ function ContactPage() {
     });
   };
 
-  const apiKey = "c679c96d-9b60-490b-8e6d-2593d7fabe68";
+  const apiKey = process.env.CONTACT_ACCESS_KEY;
 
   const { submit } = useWeb3Forms({
     access_key: apiKey,

@@ -26,7 +26,7 @@ const Footer = () => {
             <FaInstagram size={29} />
           </a>
           <a
-            href="https://www.linkedin.com/in/abhimanyukanaujia018/"
+            href="https://www.linkedin.com/in/srijan-agrawal-961281240/"
             className="hover:scale-125 transition-all ease-in-out duration-300"
           >
             <FaLinkedin size={29} />
