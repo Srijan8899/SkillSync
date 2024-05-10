@@ -7,7 +7,7 @@ import { Course } from "../models/course.model.js";
 // VERY VERY PRIVATE SECRET KEY FETCHING
 const instance = new razorpay({
   key_id: process.env.KEY,
-  key_secret: process.env.SECRET,
+  key_secret: process.env.PAYMENT_SECRET,
 });
 
 // HERE ORDER DETAIL AND AMOUNT LOGIC IMPLEMENTED
