@@ -44,15 +44,19 @@ const Explore = () => {
   return (
     <div className="flex flex-col items-center justify-center m-14 overflow-hidden">
       {/* explore skills upper div */}
-      <h2 className="text-3xl font-bold text-black">Explore Skills</h2>
+      <h2 className="text-3xl mb-5 font-bold text-black">Explore Skills</h2>
       {/* paragraph div */}
-      <p className="sm:hidden my-4 mb-6 w-[50%] text-center">
-        Discover thousands of on-demand classes in design, business, technology,
-        photography, and more. Find what sparks your curiosity.
-      </p>
+      <div className="hidden lg:block lg:my-4 lg:mb-6 lg:w-[50%] lg:text-center">
+        {" "}
+        {/* Shown on large devices */}
+        <p className="text-center">
+          Discover thousands of on-demand classes in design, business,
+          technology, photography, and more. Find what sparks your curiosity.
+        </p>
+      </div>
 
       {/* all skill category grid */}
-      <div className=" flex justify-center items-center flex-wrap gap-16 w-full mb-4">
+      <div className="flex justify-center items-center flex-wrap gap-y-8 gap-x-16 w-full mb-5">
         {Categories.map((category) => (
           // a particular skill
           <NavLink
