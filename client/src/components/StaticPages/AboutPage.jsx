@@ -4,18 +4,18 @@ import abhimanyuPic from "../../Assets/main-profile.png";
 const AboutPage = () => {
   const people = [
     {
-      name: "Abhimanyu Kanaujia",
-      role: "Full Stack Developer",
-      picture:  abhimanyuPic ,
-      linkedinURL: "https://www.linkedin.com/in/abhimanyukanaujia018/",
-      githubURL: "https://github.com/abhimanyu0018",
-    },
-    {
       name: "Srijan Agrawal",
       role: "Full Stack Developer",
-      picture:  srijanPic ,
+      picture: srijanPic,
       linkedinURL: "https://www.linkedin.com/in/srijan-agrawal-961281240/",
       githubURL: "https://github.com/Srijan8899",
+    },
+    {
+      name: "Abhimanyu Kanaujia",
+      role: "Full Stack Developer",
+      picture: abhimanyuPic,
+      linkedinURL: "https://www.linkedin.com/in/abhimanyukanaujia018/",
+      githubURL: "https://github.com/abhimanyu0018",
     },
   ];
 
