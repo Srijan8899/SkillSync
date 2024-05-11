@@ -31,7 +31,7 @@ The frontend of SkillSync is deployed on Vercel, while the backend is deployed o
 ## How to Run Locally :-
 - Clone the repository: 
 ``` 
-git clone  https://github.com/abhimanyu0018/SkillSync
+git clone  https://github.com/Srijan8899/SkillSync
 ```
 - Navigate to the client directory: 
 ```
